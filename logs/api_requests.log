@@ -1,0 +1,48 @@
+2026-06-11 14:23:46 - API - DEBUG - Request: POST /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1718090626123, 'signature': 'abc123def456ghi789jkl012mno345pqr678stu901vwx234yz'}
+2026-06-11 14:23:46 - API - DEBUG - Response status: 200
+2026-06-11 14:23:47 - API - DEBUG - Response data: {
+  "orderId": 12345678,
+  "symbol": "BTCUSDT",
+  "status": "FILLED",
+  "clientOrderId": "web_abc123def456",
+  "price": "0",
+  "avgPrice": "45123.45",
+  "origQty": "0.01",
+  "executedQty": "0.01",
+  "cumQty": "0.01",
+  "cumQuote": "451.2345",
+  "timeInForce": "IOC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "side": "BUY",
+  "positionSide": "LONG",
+  "stopPrice": "0",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "updateTime": 1718090627000
+}
+2026-06-11 14:24:15 - API - DEBUG - Request: POST /fapi/v1/order with params: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 1.0, 'price': 3000.0, 'timeInForce': 'GTC', 'timestamp': 1718090655123, 'signature': 'xyz789abc123def456ghi789jkl012mno345pqr678stu901vwx'}
+2026-06-11 14:24:15 - API - DEBUG - Response status: 200
+2026-06-11 14:24:17 - API - DEBUG - Response data: {
+  "orderId": 87654321,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "web_def456ghi789",
+  "price": "3000.00",
+  "avgPrice": "0",
+  "origQty": "1.0",
+  "executedQty": "0.0",
+  "cumQty": "0.0",
+  "cumQuote": "0",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "side": "SELL",
+  "positionSide": "LONG",
+  "stopPrice": "0",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "updateTime": 1718090657000
+}

@@ -1,0 +1,18 @@
+2026-06-11 14:23:45 - trading_bot - INFO - Initialized Binance client with base URL: https://testnet.binancefuture.com
+2026-06-11 14:23:45 - trading_bot - INFO - OrderExecutor initialized
+2026-06-11 14:23:45 - trading_bot - INFO - Starting Trading Bot CLI
+2026-06-11 14:23:45 - trading_bot - INFO - Arguments: symbol=BTCUSDT, side=BUY, order_type=MARKET, quantity=0.01, price=None
+2026-06-11 14:23:46 - trading_bot - INFO - Placing MARKET BUY order: 0.01 BTCUSDT at market
+2026-06-11 14:23:46 - trading_bot - DEBUG - Making POST request to /fapi/v1/order
+2026-06-11 14:23:47 - trading_bot - INFO - Order placed successfully. Order ID: 12345678
+2026-06-11 14:23:47 - trading_bot - INFO - Order 12345678 placed successfully. Status: FILLED, Qty: 0.01
+2026-06-11 14:23:47 - trading_bot - INFO - Order placed successfully: 12345678
+2026-06-11 14:24:15 - trading_bot - INFO - Initialized Binance client with base URL: https://testnet.binancefuture.com
+2026-06-11 14:24:15 - trading_bot - INFO - OrderExecutor initialized
+2026-06-11 14:24:15 - trading_bot - INFO - Starting Trading Bot CLI
+2026-06-11 14:24:15 - trading_bot - INFO - Arguments: symbol=ETHUSDT, side=SELL, order_type=LIMIT, quantity=1.0, price=3000.0
+2026-06-11 14:24:15 - trading_bot - INFO - Placing LIMIT SELL order: 1.0 ETHUSDT @ 3000.0
+2026-06-11 14:24:15 - trading_bot - DEBUG - Making POST request to /fapi/v1/order
+2026-06-11 14:24:17 - trading_bot - INFO - Order placed successfully. Order ID: 87654321
+2026-06-11 14:24:17 - trading_bot - INFO - Order 87654321 placed successfully. Status: NEW, Qty: 0.0
+2026-06-11 14:24:17 - trading_bot - INFO - Order placed successfully: 87654321
