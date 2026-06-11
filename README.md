@@ -4,25 +4,25 @@ A Python application that places market and limit orders on Binance Futures Test
 
 ## Features
 
-- ✅ Place **Market Orders** (BUY/SELL)
-- ✅ Place **Limit Orders** (BUY/SELL)
-- ✅ Input validation and CLI interface
-- ✅ Structured code (client layer + CLI layer)
-- ✅ Comprehensive logging to file and console
-- ✅ Exception handling (invalid input, API errors, network failures)
-- ✅ Testnet-only for safe testing
+-  Place **Market Orders** (BUY/SELL)
+-  Place **Limit Orders** (BUY/SELL)
+-  Input validation and CLI interface
+-  Structured code (client layer + CLI layer)
+-  Comprehensive logging to file and console
+-  Exception handling (invalid input, API errors, network failures)
+-  Testnet-only for safe testing
 
 ## Features
 
 ### Core Requirements Met
-- ✅ Language: Python 3.x
-- ✅ Place Market and Limit orders on Binance Futures Testnet (USDT-M)
-- ✅ Support both BUY and SELL sides
-- ✅ CLI input validation (argparse)
-- ✅ Clear output formatting with order details
-- ✅ Structured code (separate client/API and CLI layers)
-- ✅ Logging of API requests, responses, and errors
-- ✅ Exception handling for all error cases
+-  Language: Python 3.x
+-  Place Market and Limit orders on Binance Futures Testnet (USDT-M)
+-  Support both BUY and SELL sides
+-  CLI input validation (argparse)
+-  Clear output formatting with order details
+-  Structured code (separate client/API and CLI layers)
+-  Logging of API requests, responses, and errors
+-  Exception handling for all error cases
 
 ## Setup Instructions
 
@@ -188,7 +188,7 @@ User-friendly CLI interface:
 ║ Quantity:      0.01                                   ║
 ╚══════════════════════════════════════════════════════╝
 
-✅ Order placed successfully!
+ Order placed successfully!
 
 ╔══════════════════════════════════════════════════════╗
 ║            ORDER RESPONSE DETAILS                     ║
@@ -214,7 +214,7 @@ User-friendly CLI interface:
 ║ Price:         3000.00                                ║
 ╚══════════════════════════════════════════════════════╝
 
-✅ Order placed successfully!
+ Order placed successfully!
 
 ╔══════════════════════════════════════════════════════╗
 ║            ORDER RESPONSE DETAILS                     ║
@@ -290,7 +290,7 @@ python cli.py --symbol BTCUSDT --side BUY --order-type MARKET --quantity 0.01
 ```bash
 python cli.py --symbol ETHUSDT --side SELL --order-type LIMIT --quantity 1 --price 3000
 ```
-**Result**: ✅ NEW (Pending)
+**Result**:  NEW (Pending)
 - Order ID: 87654321
 - Status: NEW
 - Quantity: 1.0 ETH
@@ -341,7 +341,7 @@ python cli.py --symbol ETHUSDT --side SELL --order-type LIMIT --quantity 1 --pri
 
 ## Security Notes
 
-⚠️ **Important Security Guidelines:**
+ **Important Security Guidelines:**
 
 1. **Never commit `.env` file** - It's in `.gitignore` for protection
 2. **Use testnet credentials only** - Never use mainnet keys in this bot
