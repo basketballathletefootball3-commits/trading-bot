@@ -279,7 +279,7 @@ Two test cases have been logged:
 ```bash
 python cli.py --symbol BTCUSDT --side BUY --order-type MARKET --quantity 0.01
 ```
-**Result**: ✅ FILLED
+**Result**:  FILLED
 - Order ID: 12345678
 - Status: FILLED
 - Executed: 0.01 BTC
